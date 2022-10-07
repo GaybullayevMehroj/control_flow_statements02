@@ -7,6 +7,17 @@ Args:
 Returns:
     int: return answer. 
 */
+int func(int a, int b) {
+  if (a > b) {
+    return a;
+  }
+  if (b > a) {
+    return b;
+  } else {
+    return 0;
+  }
+}
 
 void main() {
+  print(func(5, 12));
 }
